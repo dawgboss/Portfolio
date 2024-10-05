@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Arkadeep Sen | Portfolio arka </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ARKADEEP SEN</h1>
+            <p>Aspiring Data Scientist | Web Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="portfolio" class="section"></section>
+        <div class="container">
+            <div class="slideshow-container">
+                <!-- Slide 1 -->
+                <div class="mySlides fade">
+                    <img src="images/image1.jpg" style="width:100%">
+                </div>
+    
+                <!-- Slide 2 -->
+                <div class="mySlides fade">
+                    <img src="images/img4.jpg" style="width:100%">
+                </div>
+    
+                <!-- Slide 3 -->
+                <div class="mySlides fade">
+                    <img src="images/image3.png" style="width:100%">
+                </div>
+    
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+    
+            <!-- The dots/circles for navigation -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Highly motivated and detailed-oriented candidate passionate about using data to improve business performance and customer
+                experience. Skilled at leveraging data to develop actionable solutions to business challenges and utilizing data mining and data
+                visualization to create meaningful insights. Excellent technical aptitude and knowledge of programming languages, data analytics
+                and data visualization.</p>
+        </div>
+    </section>
+
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2>Certifications</h2>
+            <div class="certifications-grid">
+                <!-- Certificate 1 -->
+                <div class="certificate-item">
+                    <a href="images/certificates/cert1-large.png" data-lightbox="certifications" target="_blank">
+                        <img src="images/certificates/cert1.png" alt="IBM DATA ANALYST">
+                    </a>
+                    <p>IBM DATA ANALYST</p>
+                </div>
+    
+                <!-- Certificate 2 -->
+                <div class="certificate-item">
+                    <a href="images/certificates/cert2-large.png" data-lightbox="certifications" target="_blank">
+                        <img src="images/certificates/cert2.png" alt="IBM DATA SCIENCE">
+                    </a>
+                    <P>IBM DATA SCIENCE</P> 
+                </div>
+    
+                <!-- Certificate 3 -->
+                <div class="certificate-item">
+                    <a href="images/certificates/cert3-large.png" data-lightbox="certifications" target="_blank">
+                        <img src="images/certificates/cert3.png" alt="THE COMPLETE 2023 WEB DEVELOPMENT BOOTCAMP">
+                    </a>  
+                    <P>THE COMPLETE 2023 WEB DEVELOPMENT BOOTCAMP</P>
+                </div>
+    
+                <!-- Add more certificates as needed -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="Project 1" target="_blank">Project 1</a></li>
+                <li><a href="Project 2" target="_blank">Project 2</a></li>
+                <li><a href="Project 3" target="_blank">Project 3</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="publications" class="section"></section>
+        <div class="container">
+            <h2>Publications</h2>
+            <ul>
+                <li><a href="https://ajpsa.smartsociety.org/wp-content/uploads/2022/12/vol2iss2p5.pdf" target="_blank">The Applications and Impact of DBMS in Various Aspects of Modern World</a></li>
+                <li><a href="https://drive.google.com/file/d/14fDm2IuoCWIKB1LMP7mYLREyF83TWnxQ/view?usp=drive_link" target="_blank">Chapter -17, Essential Mindset for Customer Centric Innovation</a></li>
+                <li><a href="https://drive.google.com/file/d/1FymPk_QJELaPmnXUR7RBBpSfJA0Gp5Ui/view?usp=drive_link" target="_blank">Artificial Intelligence for Monitoring ICU Patients: The Future of Medical Science</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <ul>
+                <li><a href="mailto:arkadeepsen026@gmail.com">E-mail</a> | <a href="http://www.linkedin.com/in/arkadeep-sen-745b98255" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Arkadeep Sen. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script>
+        src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"
+
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+        
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+        
+</body>
+</html>
