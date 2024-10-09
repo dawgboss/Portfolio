@@ -200,10 +200,10 @@ footer p {
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 nav ul li {
@@ -212,12 +212,12 @@ nav ul li {
 
 nav ul li a {
     display: inline-block;
-    padding: 12px 25px;
+    padding: 10px 15px;
     background-color: #457b9d; /* Button background color */
     color: #f1faee; /* Button text color */
     text-decoration: none;
     font-size: 1.1em;
-    border-radius: 25px; /* Rounded corners for button look */
+    border-radius: 15px; /* Rounded corners for button look */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add slight shadow for 3D effect */
 }
